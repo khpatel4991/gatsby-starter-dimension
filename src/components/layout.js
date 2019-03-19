@@ -43,6 +43,7 @@ const Layout = ({ children, location }) => {
             meta={[
               { name: 'description', content: 'Sample' },
               { name: 'keywords', content: 'sample, something' },
+              { name: 'robots', content: 'noindex' },
             ]}
           >
             <html lang="en" />
